@@ -1,0 +1,13 @@
+[package]
+name = "OpenGFW"
+version = "0.1.0"
+authors = ["Minty_He"]
+
+[dependencies]
+fsm = "0.2.2"
+pcap = "0.7.0"
+json = "0.11.13"
+
+[[bin]]
+name = "OpenGFW"
+path = "main.rs"
